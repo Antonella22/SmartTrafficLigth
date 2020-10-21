@@ -1,0 +1,396 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\lcd.c
+[v _LCD_putc LCD_putc `(v  1 e 1 0 ]
+"67
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"124
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"164
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+"172
+[v _LCD_gotoxy LCD_gotoxy `(v  1 e 1 0 ]
+"197
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"29 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\main.c
+[v _TECLADO TECLADO `(v  1 e 1 0 ]
+"62
+[v _read_time read_time `(v  1 e 1 0 ]
+"154
+[v _main main `(v  1 e 1 0 ]
+"12 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\teclado.c
+[v _teclado_init teclado_init `(v  1 e 1 0 ]
+"19
+[v _teclado_getc teclado_getc `(uc  1 e 1 0 ]
+"26 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\USART_libreria.c
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+"48
+[v _USART_Tx USART_Tx `(v  1 e 1 0 ]
+"2453 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2563
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"3073
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S24 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S33 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _LATDbits LATDbits `VES42  1 e 1 @3980 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S397 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S404 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S411 . 1 `S397 1 . 1 0 `S404 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES411  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S70 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[s S79 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S88 . 1 `S70 1 . 1 0 `S79 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES88  1 e 1 @3989 ]
+[s S300 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 SPPIE 1 0 :1:7 
+]
+"4408
+[s S309 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[u S315 . 1 `S300 1 . 1 0 `S309 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES315  1 e 1 @3997 ]
+[s S482 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S491 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S494 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S497 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S500 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S503 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S505 . 1 `S482 1 . 1 0 `S491 1 . 1 0 `S494 1 . 1 0 `S497 1 . 1 0 `S500 1 . 1 0 `S503 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES505  1 e 1 @4011 ]
+[s S430 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S439 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S448 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S451 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S453 . 1 `S430 1 . 1 0 `S439 1 . 1 0 `S448 1 . 1 0 `S451 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES453  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S218 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"8009
+[s S224 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S232 . 1 `S218 1 . 1 0 `S224 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES232  1 e 1 @4051 ]
+[s S152 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8532
+[s S155 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S164 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S169 . 1 `S152 1 . 1 0 `S155 1 . 1 0 `S164 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES169  1 e 1 @4081 ]
+[s S251 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8614
+[s S260 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S269 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S273 . 1 `S251 1 . 1 0 `S260 1 . 1 0 `S269 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES273  1 e 1 @4082 ]
+"20 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\main.c
+[v _K K `uc  1 e 1 0 ]
+"21
+[v _time time `[3]uc  1 e 3 0 ]
+"22
+[v _i i `uc  1 e 1 0 ]
+"23
+[v _read read `uc  1 e 1 0 ]
+"24
+[v _pos pos `uc  1 e 1 0 ]
+"26
+[v _DEC DEC `uc  1 e 1 0 ]
+[v _UNI UNI `uc  1 e 1 0 ]
+[v _VAL VAL `uc  1 e 1 0 ]
+"154
+[v _main main `(v  1 e 1 0 ]
+{
+"188
+} 0
+"12 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\teclado.c
+[v _teclado_init teclado_init `(v  1 e 1 0 ]
+{
+"17
+} 0
+"62 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\main.c
+[v _read_time read_time `(v  1 e 1 0 ]
+{
+"63
+[v read_time@num num `l  1 a 4 29 ]
+[v read_time@u u `l  1 a 4 25 ]
+[v read_time@d d `l  1 a 4 21 ]
+"131
+} 0
+"48 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\USART_libreria.c
+[v _USART_Tx USART_Tx `(v  1 e 1 0 ]
+{
+[v USART_Tx@data data `uc  1 a 1 wreg ]
+[v USART_Tx@data data `uc  1 a 1 wreg ]
+[v USART_Tx@data data `uc  1 a 1 0 ]
+"50
+} 0
+"29 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\main.c
+[v _TECLADO TECLADO `(v  1 e 1 0 ]
+{
+"60
+} 0
+"19 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\teclado.c
+[v _teclado_getc teclado_getc `(uc  1 e 1 0 ]
+{
+"21
+[v teclado_getc@letras letras `[4][4]uc  1 a 16 0 ]
+"25
+[v teclado_getc@i i `i  1 a 2 17 ]
+"26
+[v teclado_getc@valor valor `uc  1 a 1 16 ]
+"19
+[v teclado_getc@F3164 F3164 `[4][4]uc  1 s 16 F3164 ]
+"69
+} 0
+"164 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\lcd.c
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+{
+"165
+[v LCD_puts@i i `uc  1 a 1 6 ]
+"164
+[v LCD_puts@data data `*.25uc  1 p 2 1 ]
+[v LCD_puts@nBytes nBytes `uc  1 p 1 3 ]
+"170
+} 0
+"11
+[v _LCD_putc LCD_putc `(v  1 e 1 0 ]
+{
+[v LCD_putc@ch ch `uc  1 a 1 wreg ]
+[v LCD_putc@ch ch `uc  1 a 1 wreg ]
+"13
+[v LCD_putc@ch ch `uc  1 a 1 0 ]
+"66
+} 0
+"172
+[v _LCD_gotoxy LCD_gotoxy `(v  1 e 1 0 ]
+{
+[v LCD_gotoxy@x x `uc  1 a 1 wreg ]
+"173
+[v LCD_gotoxy@DDRAMAddr DDRAMAddr `uc  1 a 1 4 ]
+"172
+[v LCD_gotoxy@x x `uc  1 a 1 wreg ]
+[v LCD_gotoxy@y y `uc  1 p 1 1 ]
+[v LCD_gotoxy@x x `uc  1 a 1 5 ]
+"183
+} 0
+"26 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\USART_libreria.c
+[v _USART_Init USART_Init `(v  1 e 1 0 ]
+{
+[v USART_Init@BAUD BAUD `l  1 p 4 14 ]
+"46
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"124 E:\DIGITALES_II\LABORATORIO\GitLaboratorio\STL.X\lcd.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"162
+} 0
+"197
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"199
+} 0
+"67
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_command@cmd cmd `uc  1 a 1 wreg ]
+"69
+[v LCD_command@cmd cmd `uc  1 a 1 0 ]
+"123
+} 0
