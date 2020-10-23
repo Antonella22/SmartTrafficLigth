@@ -1,0 +1,208 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"30 E:\DIGITALES_II\LABORATORIO\SemaforoSTL.X/TMR0.h
+[v _myTMR0_CONF myTMR0_CONF `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"32 E:\DIGITALES_II\LABORATORIO\SemaforoSTL.X\main.c
+[v _validar_estados validar_estados `(v  1 e 1 0 ]
+"163
+[v _seven seven `(v  1 e 1 0 ]
+"193
+[v _tmr0 tmr0 `IIH(v  1 e 1 0 ]
+"203
+[v _main main `(v  1 e 1 0 ]
+[s S58 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2353 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S94 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S102 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S108 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S111 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S113 . 1 `S58 1 . 1 0 `S94 1 . 1 0 `S102 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES113  1 e 1 @3968 ]
+"2563
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2705
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S147 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RDPU 1 0 :1:7 
+]
+"2868
+[s S154 . 1 `uc 1 CK1SPP 1 0 :1:0 
+`uc 1 CK2SPP 1 0 :1:1 
+`uc 1 OESPP 1 0 :1:2 
+]
+[s S158 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S165 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S172 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RE7 1 0 :1:7 
+]
+[u S177 . 1 `S147 1 . 1 0 `S154 1 . 1 0 `S158 1 . 1 0 `S165 1 . 1 0 `S172 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES177  1 e 1 @3972 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S50 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[u S66 . 1 `S50 1 . 1 0 `S58 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES66  1 e 1 @3986 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S24 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8089
+[s S31 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S35 . 1 `S24 1 . 1 0 `S31 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES35  1 e 1 @4053 ]
+"8146
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"8153
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10269
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10812
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"10815
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"28 E:\DIGITALES_II\LABORATORIO\SemaforoSTL.X\main.c
+[v _estados estados `uc  1 e 1 0 ]
+"29
+[v _t_ra t_ra `i  1 e 2 0 ]
+[v _t_a t_a `i  1 e 2 0 ]
+[v _t_v t_v `i  1 e 2 0 ]
+"30
+[v _time1 time1 `i  1 e 2 0 ]
+[v _time2 time2 `i  1 e 2 0 ]
+[v _time3 time3 `i  1 e 2 0 ]
+"203
+[v _main main `(v  1 e 1 0 ]
+{
+"236
+} 0
+"163
+[v _seven seven `(v  1 e 1 0 ]
+{
+"165
+[v seven@deco deco `[10]i  1 a 20 6 ]
+"179
+[v seven@pos pos `[5]i  1 a 10 26 ]
+"163
+[v seven@numero numero `i  1 p 2 2 ]
+[v seven@posicion posicion `i  1 p 2 4 ]
+[v seven@F3496 F3496 `[10]i  1 s 20 F3496 ]
+"165
+[v seven@F3498 F3498 `[5]i  1 s 10 F3498 ]
+"191
+} 0
+"30 E:\DIGITALES_II\LABORATORIO\SemaforoSTL.X/TMR0.h
+[v _myTMR0_CONF myTMR0_CONF `(v  1 e 1 0 ]
+{
+[v myTMR0_CONF@modo modo `uc  1 a 1 wreg ]
+[v myTMR0_CONF@modo modo `uc  1 a 1 wreg ]
+[v myTMR0_CONF@n_bits n_bits `uc  1 p 1 2 ]
+"31
+[v myTMR0_CONF@flanco flanco `uc  1 p 1 3 ]
+[v myTMR0_CONF@preesc_E preesc_E `uc  1 p 1 4 ]
+"32
+[v myTMR0_CONF@valor_preescaler valor_preescaler `uc  1 p 1 5 ]
+[v myTMR0_CONF@ON_OFF ON_OFF `uc  1 p 1 6 ]
+[v myTMR0_CONF@modo modo `uc  1 a 1 7 ]
+"43
+} 0
+"193 E:\DIGITALES_II\LABORATORIO\SemaforoSTL.X\main.c
+[v _tmr0 tmr0 `IIH(v  1 e 1 0 ]
+{
+"201
+} 0
+"32
+[v _validar_estados validar_estados `(v  1 e 1 0 ]
+{
+"161
+} 0

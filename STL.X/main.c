@@ -115,7 +115,7 @@ void read_time(){
                 //LCD_puts(item,10);
                 
                 USART_Tx(time);
-              
+                pos=0;
                 break;
                 
         }
